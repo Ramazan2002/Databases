@@ -12,18 +12,18 @@ CREATE DATABASE homework2
     CONNECTION LIMIT = -1;
 
 
-create table clients (Id serial not null primary key, Name varchar, Credit_card bigserial);
+create table clients (Id serial not null primary key, Name varchar, Credit_card varchar(12));
 
-insert into clients (Name, CreditCard) values ('Mikhail', 410754699015);
-insert into clients (Name, CreditCard) values ('Gleb', 456123789420);
-insert into clients (Name, CreditCard) values ('Kristina', 345013607894);
-insert into clients (Name, CreditCard) values ('Valeriya', 154672300487);
-insert into clients (Name, CreditCard) values ('Vladislav', 653971540381);
-insert into clients (Name, CreditCard) values ('Aleksandr', 267514930206);
-insert into clients (Name, CreditCard) values ('Alina', 751079836488);
-insert into clients (Name, CreditCard) values ('Petya', 786154934518);
-insert into clients (Name, CreditCard) values ('Vova', 124378594572);
-insert into clients (Name, CreditCard) values ('Andrei', 751649040636);
+insert into clients (Name, CreditCard) values ('Mikhail', '410754699015');
+insert into clients (Name, CreditCard) values ('Gleb', '456123789420');
+insert into clients (Name, CreditCard) values ('Kristina', '345013607894');
+insert into clients (Name, CreditCard) values ('Valeriya', '154672300487');
+insert into clients (Name, CreditCard) values ('Vladislav', '653971540381');
+insert into clients (Name, CreditCard) values ('Aleksandr', '267514930206');
+insert into clients (Name, CreditCard) values ('Alina', '751079836488');
+insert into clients (Name, CreditCard) values ('Petya', '786154934518');
+insert into clients (Name, CreditCard) values ('Vova', '124378594572');
+insert into clients (Name, CreditCard) values ('Andrei', '751649040636');
 
 
 
